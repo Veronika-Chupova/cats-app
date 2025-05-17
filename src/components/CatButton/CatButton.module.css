@@ -1,0 +1,18 @@
+.catBtn{
+  background-color: #fff3f6;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.catBtn:hover {
+  border-color: grey;
+}
+
+.catBtn:disabled {
+  border-color: transparent;
+  background-color: #f5f5f5;
+  color: lightgrey;
+  cursor: default;
+}

@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    flex: 1 1 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    /* Отображение в исходных пропорциях */
+    /* object-fit: contain;    
+    max-width: 100%;
+    max-height: 100%; */
+    
+    /* Отображение урезанного и вписанного в рамку  */
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+}
